@@ -1,56 +1,38 @@
 * {
-   margin :0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;  
+padding: 0;
+box-sizing:border-box;
+--couleur:#3d3dbdfb;
 
-   /* Palette de couleur pour mon CV */
-   --color1:#800000;
-   --color2:#982B1C;
-   --color3:#DAD4B5;
-   --color4:#F2E8C6;
+
 }
 
-body {
-    background-color: var(--color3);
+ul {
+
+padding: 20px;
+
+
 }
 
-#info {
-    width : 40%;
-    margin : 15px;
-    padding : 15px;
-    background-color: var(--color4);
-    color : var(--color1);
-    border : var(--color1) solid 2px;
-    border-radius: 15px;  
-}
+#coordonnees {
+background-color: var(--couleur);
 
-#info>a {
+    margin:auto;
+
+    width: 60%;
+
+
+
+
     display: flex;
-    flex-direction: row;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    text-decoration: none;
-    width : 50%;
-    aspect-ratio : 4/1;
-    background-color: var(--color1);
-    color: var(--color4);
-    border-radius: 5px;
-    padding: 10px 15px;
-    margin: 10px 0;
-    align-items: center;
-}
 
-#info>h1 {
+
 
 }
-
-#info>a>img {
-    height: 100%;
-    display: block;
+@font-face {
+    font-family: "police";
+    src: url();
 }
-
-#info>a>p {
-    padding-left: 20px;
-    
-}
-    
